@@ -1,0 +1,10 @@
+
+
+file = open('warandpeace.txt', 'r')
+
+filestring = file.read()
+
+n = 5
+
+start = random.randint(0, len(filestring)-1)
+

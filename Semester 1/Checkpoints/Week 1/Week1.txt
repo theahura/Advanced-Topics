@@ -1,0 +1,10 @@
+0. What do we mean by the term data structure?
+
+A data structure is any part of java that holds data. It governs space and time used by running the program. 
+Can also effect writing times for the user. //How does this hold data???
+
+1. Briefly describe how javadoc works. What is the benefit of using JavaDoc?
+
+A Javadoc is basically a well commented version of the code that follows a specific format that quickly and 
+efficiently describes the datastructure in the Javadoc. Includes pre- post- conditions, variable definitions, etc. 
+etc. Often online. Javadoc could also refer to the database that contains all java code and methods in javadoc format. 

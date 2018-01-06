@@ -1,0 +1,12 @@
+1. Explain how a Queue can be implemented using a LinkedList. 
+Why can Queue simply be an interface? What benefit is there to doing this?
+
+If one were to use a doublylinkedlist or circularlylinked list one can quickly 
+get access to the head and tail of both parts of the list. By blocking off all data
+in the middle, the linkedlist effectively becomes a queue, allowing addition on the back
+and removal from the front of the list. 
+A Queue is simply a set of restrictions and required functions; it takes any linear data set
+and restricts addition to the back and remove from the front. As such, it can be applied to
+any data set; linkedlists are probably the easiest to implement, but a queue can be made out
+of vectors, arraylists, even arrays if you have no other better things to do with your time.
+The benefits of such ease of access is that the queue can be easily applied. 

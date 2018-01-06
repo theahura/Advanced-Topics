@@ -1,0 +1,11 @@
+1. What is Bubble Sort? Briefly explain how it works. 
+
+Bubble sort is a sorting algorithm that examines each pair and determines which one of the two is greater. Depending on the
+goal of the sort (smallest to largest or vice versa) the two will swap places. This continues; by the end of the first pass 
+through the largest/smallest number is guarenteed at the end of the list. The sort repeats until the list is sorted.
+
+2. What is a Comparator? Why would I use one?
+A comparator is an object that is a way of comparing two objects in a way that is defined by the user, similar to comparable. 
+HOWEVER: comparators do not require any method to be defined within the class that you are comparing. This makes it easier 
+to compare objects at the location of the comparison, vs. having a natural comparison order that is followed based on the class
+that is being compared. It allows multiple comparabtors to be used on the same data as well. 

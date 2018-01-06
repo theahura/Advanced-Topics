@@ -1,0 +1,27 @@
+20 questions game
+
+Prolog is based on relationships, specifically facts, and rules defined from facts. This makes it a very powerful AI tool.
+
+The 20q program uses built in facts, and then adds more in based on user input (using the assert command).
+
+When humans play this game, we use the information given from whoever is thinking of the 'mystery object' to slowly eliminate all other possible choices.
+For example, when I say I'm thinking of something small, the other player will immediately remove from consideration any object that isn't 'tagged' as small, such as buildings, large animals, whatever. Further questions specify the object down, until we eventually reach only one object in our memory that can fit all of the 'tagged'
+adjectives that we have gleaned as information from our questioning.
+
+The Prolog code works in the same way. Each turn, it runs through each object in the database and asks a fact about that object, to which the user replies yes or no. If the answer is yes, the code will remove any object that does NOT have that corresponding describer (for example: if we know that the mystery object is food, we remove anything that is electronic). If the answer is no, the code will remove any object that DOES have that corresponding describer (for example: if we know that the mystery object is NOT food, we remove all foods from the possible choice). 
+
+The program starts from the start function. It iterates through each object, and then within that iterates through each possible describer for said object. When it gets an input, it removes any objects that don't fit by storing them within the no() rule, and removes any describers so they don't ask the same question twice within the yes() rule. These rules change dynamically. 
+
+If the code cannot guess an answer, it asks the user to input 5 adjectives and creates 5 new facts to add to the database; the ideal system would be one that took the previous inputs and used that as adjectives to describe the object but I didn't have time to implement that.
+
+At the end of each round, the yes and no all clear out; the database is stored from round to round.
+
+basic syntax to run program:
+
+type 'start.' to start the code;
+put periods after each command;
+hit enter after each command;
+
+ 
+
+

@@ -1,0 +1,23 @@
+1) What is Abstraction, why is it useful?
+ 
+Abstraction is the separation of implementation and use. In an object oriented program, super
+classes and abstract classes can hide functionality that remains the same across multiple classes as well as implement functionality of the actual data structure without forcing the user to re-write
+that implementation each time. For example, java structures automatically handle memory allocation
+allowing users to avoid having to focus on it.
+This is useful because properties can be passed on to multiple objects, saving time and effort on the part of 
+the user, as well as allowing the prevention of the implementation of certain necessary classes from being changed. Overall, makes life simpler.
+
+2. What is encapsulation? Why is it useful? Can you think of a real-world example?
+
+Encapsulation is a form of managing data by storing it in areas that Java can access, to make it easier overall to organize and hold data efficiently. For example, classes encapsulate methods and variables within them; all the data stored in the class is said to be encapsulated by it. Packages encapsulate classes, to signal related classes working together. This is useful mainly for organization purposes (classes of the same type that are related stay together, data of the same class stays together). Large amounts of data can be stored and accessed easily in the form of a few interrelated classes. 
+Real world example: Box can hold multiple letters, each which holds paper, each which holds words (I THINK that's what you mean by real world example? The thing with donuts and such?). SORT OF. ENCAPSULATION ALSO ALLOWS US TO CONTROL THE WAY THAT THE "USER" INTERACTS WITH THE OBJECT. FOR EXAMPLE: REPAIRMAN DOES NOT NEED TO KNOW HOW TO PHYSICALLY CREATE A PART, HE JUST NEEDS TO KNOW HOW TO USE IT TO FIX THE PROBLEM. HE DOESN'T WELD THE PART HIMSELF. 
+
+3. What is an interface? Why might I want to use one?
+
+An interface is a group of methods that do not have any bodies, that can be 'implemented' by various classes to guarentee that all of those classes have those same methods in them. By defining a class with an interface, a class is bound to the rules of that interface, allowing users to access certain methods in a class without necessarily worrying about the implementation, just the end result. 
+
+4. What is the point of the Association class, as implemented in Chapter 1?
+
+It allows users to define one 'key' to a value, similar to arrays in how they assign a spot (an int) in the array to a value stored, but different in that the key can be any object and the value can be any object. 
+
+5. Design a class to solve problem 1.12 in Chapter 1.

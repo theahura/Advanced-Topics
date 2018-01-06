@@ -1,0 +1,13 @@
+Runtimes: 
+
+	Linked List		Vector
+
+Add	n No, this is 1			n^2 No, this is 1
+
+Remove	n			n^2 No, this is n
+
+Size	n			1	
+
+Get	n			1
+
+Set	n			1

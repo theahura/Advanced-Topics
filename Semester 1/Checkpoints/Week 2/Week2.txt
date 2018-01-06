@@ -1,0 +1,13 @@
+1. What are generics? How do they work? 
+
+Generics are container classes that can be extended as a normal class. This gives programmers the ability to a) catch runtime errors as compilation errors, and b) gives a structure that can be used to hold objects while still being polymorphic. Simply put, they are a type parameter. 
+
+2. What is wrong with the following code:
+
+E dataList = new E[10];
+
+How can we work around this problem?
+
+E can be defined as any kind of type; Java arrays 'require knowledge' of the type of an array before it can create the array.
+
+To fix the problem, construct a private array of type Obj (essentially not limiting the array) and limit the type of the elements to E with type casting in E mutator methods.  
